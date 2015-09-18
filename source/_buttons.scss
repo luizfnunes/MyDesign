@@ -1,0 +1,65 @@
+$button_radius : 5px;
+$button_width  : 100px;
+$text_bold     : bold;
+$button_group_radius : 5px;
+
+.button{
+	padding: 10px;
+	border: 1px solid darken($color_primary, 10%);
+	border-radius: $button_radius;
+	font-size: 14px;
+	color: $button-text_color;
+	background-color: $color_primary;
+	width: $button_width;
+	font-weight: $text_bold;
+	cursor: pointer;
+	&:hover{
+		background-color: darken($color_primary, 10%);
+	}
+}
+.button-ok{
+	border: 1px solid $border_ok;
+	background-color: $color_ok;
+	&:hover{
+		background-color: darken($color_ok, 10%);
+	}
+}
+.button-cancel{
+	border: 1px solid $border_cancel;
+	background-color: $color_cancel;
+	&:hover{
+		background-color: darken($color_cancel, 10%);
+	}
+}
+.button-close{
+	border: 1px solid $border_close;
+	background-color: $color_close;
+	&:hover{
+		background-color: darken($color_close, 10%);
+	}
+}
+.pagination{
+	margin: 15px 0 15px 0;
+	.active{
+			background-color: darken($button_group_color,10%);
+	}
+	a{
+		color: $button_text_color; 
+		border-radius: 0;
+		padding:10px 15px;
+		margin: 0 -5px 0 0;
+		background-color: $button_group_color;
+		border: 1px solid $button_group_border;
+		text-decoration: none;
+		cursor: pointer;
+		&:hover{
+			background-color: darken($button_group_color, 10%);
+		}
+		&:first-child{
+				border-radius: $button_group_radius 0 0 $button_group_radius;
+		}
+		&:last-child{
+				border-radius: 0 $button_group_radius $button_group_radius 0;
+		}
+	}
+}

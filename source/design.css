@@ -1,0 +1,71 @@
+/* ################################ */
+/* My Design                        */
+/* Original project by Luiz F Nunes */
+/* ################################ */
+/* Default Colors */
+/* Dark and Light Colors */
+/* Button Colors */
+/* line 6, _buttons.scss */
+.button {
+  padding: 10px;
+  border: 1px solid #9e4f24;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #c8642d;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer; }
+  /* line 16, _buttons.scss */
+  .button:hover {
+    background-color: #9e4f24; }
+
+/* line 20, _buttons.scss */
+.button-ok {
+  border: 1px solid #035113;
+  background-color: #05821e; }
+  /* line 23, _buttons.scss */
+  .button-ok:hover {
+    background-color: #035113; }
+
+/* line 27, _buttons.scss */
+.button-cancel {
+  border: 1px solid #cc0000;
+  background-color: red; }
+  /* line 30, _buttons.scss */
+  .button-cancel:hover {
+    background-color: #cc0000; }
+
+/* line 34, _buttons.scss */
+.button-close {
+  border: 1px solid #cc9000;
+  background-color: #ffb400; }
+  /* line 37, _buttons.scss */
+  .button-close:hover {
+    background-color: #cc9000; }
+
+/* line 41, _buttons.scss */
+.pagination {
+  margin: 15px 0 15px 0; }
+  /* line 43, _buttons.scss */
+  .pagination .active {
+    background-color: #9e4f24; }
+  /* line 46, _buttons.scss */
+  .pagination a {
+    color: #FFFFFF;
+    border-radius: 0;
+    padding: 10px 15px;
+    margin: 0 -5px 0 0;
+    background-color: #c8642d;
+    border: 1px solid #9e4f24;
+    text-decoration: none;
+    cursor: pointer; }
+    /* line 55, _buttons.scss */
+    .pagination a:hover {
+      background-color: #9e4f24; }
+    /* line 58, _buttons.scss */
+    .pagination a:first-child {
+      border-radius: 5px 0 0 5px; }
+    /* line 61, _buttons.scss */
+    .pagination a:last-child {
+      border-radius: 0 5px 5px 0; }
