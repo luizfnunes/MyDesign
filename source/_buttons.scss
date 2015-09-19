@@ -43,7 +43,7 @@ $button_group_radius : 5px;
 	.active{
 			background-color: darken($button_group_color,10%);
 	}
-	a{
+	button{
 		color: $button_text_color; 
 		border-radius: 0;
 		padding:10px 15px;
@@ -55,11 +55,17 @@ $button_group_radius : 5px;
 		&:hover{
 			background-color: darken($button_group_color, 10%);
 		}
+	}
+	a{
 		&:first-child{
+			button{
 				border-radius: $button_group_radius 0 0 $button_group_radius;
+			}
 		}
 		&:last-child{
+			button{
 				border-radius: 0 $button_group_radius $button_group_radius 0;
+			}
 		}
 	}
 }
