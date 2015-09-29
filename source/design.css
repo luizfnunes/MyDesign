@@ -1,7 +1,6 @@
 /* Default Colors */
 /* Dark and Light Colors */
 /* Button Colors */
-/* line 6, _buttons.scss */
 .button {
   padding: 10px;
   border: 1px solid #9e4f24;
@@ -12,41 +11,31 @@
   width: 100px;
   font-weight: bold;
   cursor: pointer; }
-  /* line 16, _buttons.scss */
   .button:hover {
     background-color: #9e4f24; }
 
-/* line 20, _buttons.scss */
 .button-ok {
   border: 1px solid #035113;
   background-color: #05821e; }
-  /* line 23, _buttons.scss */
   .button-ok:hover {
     background-color: #035113; }
 
-/* line 27, _buttons.scss */
 .button-cancel {
   border: 1px solid #cc0000;
   background-color: red; }
-  /* line 30, _buttons.scss */
   .button-cancel:hover {
     background-color: #cc0000; }
 
-/* line 34, _buttons.scss */
 .button-close {
   border: 1px solid #cc9000;
   background-color: #ffb400; }
-  /* line 37, _buttons.scss */
   .button-close:hover {
     background-color: #cc9000; }
 
-/* line 41, _buttons.scss */
 .pagination {
   margin: 15px 0 15px 0; }
-  /* line 43, _buttons.scss */
   .pagination .active {
     background-color: #9e4f24; }
-  /* line 46, _buttons.scss */
   .pagination button {
     color: #FFFFFF;
     border-radius: 0;
@@ -56,12 +45,22 @@
     border: 1px solid #9e4f24;
     text-decoration: none;
     cursor: pointer; }
-    /* line 55, _buttons.scss */
     .pagination button:hover {
       background-color: #9e4f24; }
-  /* line 61, _buttons.scss */
   .pagination a:first-child button {
     border-radius: 5px 0 0 5px; }
-  /* line 66, _buttons.scss */
   .pagination a:last-child button {
     border-radius: 0 5px 5px 0; }
+
+.form {
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Arial", "Sans Serif"; }
+
+.form input {
+  padding: 5px 10px;
+  font-size: 18px;
+  font-family: "Arial", "Sans Serif"; }
+  .form input[type=submit] {
+    background: #FFFFFF;
+    border: 2px solid #a0a0a0; }
