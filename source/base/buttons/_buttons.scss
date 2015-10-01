@@ -1,9 +1,6 @@
-$button_radius : 5px;
-$button_width  : 100px;
-$text_bold     : bold;
-$button_group_radius : 5px;
+// MyDesign buttons
 
-.button{
+.button {
 	padding: 10px;
 	border: 1px solid darken($color_primary, 10%);
 	border-radius: $button_radius;
@@ -13,38 +10,48 @@ $button_group_radius : 5px;
 	width: $button_width;
 	font-weight: $text_bold;
 	cursor: pointer;
-	&:hover{
+
+	&:hover {
 		background-color: darken($color_primary, 10%);
 	}
 }
-.button-ok{
+
+.button-ok {
 	border: 1px solid $border_ok;
 	background-color: $color_ok;
+
 	&:hover{
 		background-color: darken($color_ok, 10%);
 	}
 }
-.button-cancel{
+
+.button-cancel {
 	border: 1px solid $border_cancel;
 	background-color: $color_cancel;
+
 	&:hover{
 		background-color: darken($color_cancel, 10%);
 	}
 }
-.button-close{
+
+.button-close {
 	border: 1px solid $border_close;
 	background-color: $color_close;
-	&:hover{
+
+	&:hover {
 		background-color: darken($color_close, 10%);
 	}
 }
-.pagination{
+
+.pagination {
 	margin: 15px 0 15px 0;
-	.active{
-			background-color: darken($button_group_color,10%);
+
+	.active {
+		background-color: darken($button_group_color,10%);
 	}
-	button{
-		color: $button_text_color; 
+
+	button {
+		color: $button_text_color;
 		border-radius: 0;
 		padding:10px 15px;
 		margin: 0 -5px 0 0;
@@ -52,18 +59,21 @@ $button_group_radius : 5px;
 		border: 1px solid $button_group_border;
 		text-decoration: none;
 		cursor: pointer;
-		&:hover{
+
+		&:hover {
 			background-color: darken($button_group_color, 10%);
 		}
 	}
-	a{
-		&:first-child{
-			button{
+
+	a {
+		&:first-child {
+			button {
 				border-radius: $button_group_radius 0 0 $button_group_radius;
 			}
 		}
-		&:last-child{
-			button{
+
+		&:last-child {
+			button {
 				border-radius: 0 $button_group_radius $button_group_radius 0;
 			}
 		}
