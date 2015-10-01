@@ -1,0 +1,39 @@
+// MyDesign variables
+
+// Fonts
+$font-default: "Arial", "Sans Serif";
+
+$font-form: $font-default;
+$font-form-size: 18px;
+
+$text_bold: bold;
+
+
+// Colors
+$color_primary: rgb(200,100,45);
+$color_secondary: #FFFFFF;
+$color_tertiary: #0000FF;
+
+$color_dark: #A0A0A0;
+$color_light: #D1D1D1;
+
+$color_ok: rgb(5,130,30);
+$color_cancel: rgb(255,0,0);
+$color_close: rgb(255,180,0);
+
+
+// Borders
+$border_ok: darken($color_ok,10%);
+$border_cancel: darken($color_cancel,10%);
+$border_close: darken($color_close,10%);
+
+
+// Buttons
+$button_group_color: rgb(200,100,45);
+$button_group_border: darken($button_group_color, 10%);
+
+$button_text_color: #FFFFFF;
+
+$button_radius: 5px;
+$button_width: 100px;
+$button_group_radius: 5px;
