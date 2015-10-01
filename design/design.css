@@ -1,0 +1,53 @@
+/*
+Error: File to import not found or unreadable: variables/variables.
+        on line 3 of design.scss
+
+1: // MyDesign
+2: 
+3: @import "variables/variables";
+4: 
+5: @import "buttons/buttons";
+6: @import "forms/forms";
+
+Backtrace:
+design.scss:3
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/import_node.rb:45:in `import'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:410:in `run'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
+/home/medina/.rvm/gems/ruby-2.2.3/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
+/home/medina/.rvm/gems/ruby-2.2.3/bin/sass:23:in `load'
+/home/medina/.rvm/gems/ruby-2.2.3/bin/sass:23:in `<main>'
+/home/medina/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `eval'
+/home/medina/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: variables/variables.\A         on line 3 of design.scss\A \A 1: // MyDesign\A 2: \A 3: @import \"variables/variables\";\A 4: \A 5: @import \"buttons/buttons\";\A 6: @import \"forms/forms\";"; }
